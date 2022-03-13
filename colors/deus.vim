@@ -869,7 +869,7 @@ local highlight_groups = {
 	BufferInactiveTarget = 'BufferVisibleTarget',
 
 	BufferTabpages    = {fg=BG, bg=FG, style='bold'},
-	BufferTabpageFill = 'TabLineFill',
+	BufferTabpageFill = 'TabLine',
 
 	BufferVisible       = 'TabLine',
 	BufferVisibleIndex  = function(self) return {fg=self.InfoMsg.fg, bg=self.BufferVisible.bg} end,
